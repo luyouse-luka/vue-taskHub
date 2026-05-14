@@ -14,7 +14,7 @@ export default defineConfig({
       ext: '.gz',
     }),
   ],
-  base: '/task-hub/', 
+  base: '/vue-taskHub/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
