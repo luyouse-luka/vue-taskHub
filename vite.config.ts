@@ -14,7 +14,7 @@ export default defineConfig({
       ext: '.gz',
     }),
   ],
-
+  base: '/task-hub/', 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
