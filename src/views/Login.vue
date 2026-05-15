@@ -23,7 +23,7 @@ const handleLogin = () => {
       <button
        @click="handleLogin"
        :disabled="isLoading"
-       class="w-full bg-linear-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:opacity-90 active:scale-95 transition-all disabled:opacity-50"
+       class="w-full bg-linear-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:opacity-90 active:scale-95 transition-all disabled:opacity-50 mb-6 cursor-pointer"
      >
         {{ isLoading ? '登录中...' : '一键进入系统' }}
       </button>

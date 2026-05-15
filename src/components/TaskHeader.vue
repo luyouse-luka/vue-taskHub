@@ -23,7 +23,7 @@ const progress = computed(() => {
 
 <template>  
   <header class="bg-linear-to-br from-blue-600 to-indigo-700 p-8 text-white">
-    <h1 class="text-3xl font-black tracking-tight">TaskHub</h1>
+    <h1 class="text-3xl font-black tracking-tight text-white">TaskHub</h1>
     
     <div class="mt-6">
       <div class="flex justify-between items-end mb-2">

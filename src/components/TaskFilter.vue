@@ -12,7 +12,7 @@ const filters = ['all', 'active', 'completed'];
       :key="f"
       @click="modelValue = f"
       :class="[ 
-        'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all capitalize',
+        'flex-1 py-1.5 text-xs font-bold rounded-lg transition-all capitalize cursor-pointer',
         modelValue === f ? 'bg-white text-brand shadow-sm' : 'text-slate-500'
       ]"    
     >

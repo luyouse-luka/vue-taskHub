@@ -41,7 +41,7 @@ const handleLogout = () => {
 
         <button 
           @click="handleLogout"
-          class="mt-8 w-full py-2 text-xs text-slate-400 hover:text-red-500 transition-colors"
+          class="mt-8 w-full py-2 text-xs text-slate-400 hover:text-red-500 transition-colors cursor-pointer "
         >
           退出当前账号
         </button>

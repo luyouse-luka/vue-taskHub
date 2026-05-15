@@ -24,7 +24,7 @@ const handleSubmit = () => {
       placeholder="今天要完成什么？"
       class="flex-1 bg-slate-50 border-none rounded-2xl px-4 py-3 focus:ring-2 focus:ring-brand/50 outline-none transition-all"
     />
-    <button @click="handleSubmit" class="bg-brand text-white px-6 rounded-2xl font-bold hover:scale-105 active:scale-95 transition-all">
+    <button @click="handleSubmit" class="bg-brand text-black px-6 rounded-2xl font-bold hover:scale-105 active:scale-95 transition-all border border-black cursor-pointer">
       +
     </button>
   </div>
